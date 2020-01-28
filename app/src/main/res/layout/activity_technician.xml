@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="activity.TechnicianActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Technician Report"
+
+            android:textSize="30sp"
+            android:gravity="center_horizontal"/>
+        <Button
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="90dp"
+            android:text="view overall report"
+            android:id="@+id/view_report"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_primary"/>
+
+        <Button
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="150dp"
+            android:text="Search report"
+            android:id="@+id/search_report"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_primary"/>
+        <Button
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="210dp"
+            android:text="Update report"
+            android:id="@+id/update_report"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_primary"/>
+
+        <Button
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="400dp"
+            android:text="Log out"
+            android:id="@+id/log_out"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_primary"/>
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

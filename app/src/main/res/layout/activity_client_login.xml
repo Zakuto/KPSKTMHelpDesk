@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.ClientLoginActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"
+        android:background="@color/bg_register">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="textPersonName"
+            android:hint="@string/Username"
+            android:textColorHint="@color/input_login_hint"
+            android:id="@+id/userName"
+            android:background="@color/white"
+            android:textColor="@color/black"
+            android:layout_marginTop="210dp"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:inputType="textPassword"
+            android:background="@color/white"
+            android:id="@+id/userPass"
+            android:hint="@string/Password"
+            android:textColor="@color/black"
+            android:textColorHint="@color/input_login_hint"
+            android:layout_marginTop="290dp"
+
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:background="@drawable/rounded_button_primary"
+            android:id="@+id/button"
+            android:layout_marginTop="380dp"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:background="@drawable/kpsktm_logo"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/imageView" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

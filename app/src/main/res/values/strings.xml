@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">KPSKTM HelpDesk</string>
+    <string name="view_report">view report</string>
+
+    <string name="test">Test</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_client">ClientActivity</string>
+    <string name="title_activity_technician">TechnicianActivity</string>
+    <string name="title_activity_data_list">DataListActivity</string>
+    <string name="title_activity_client_crud">ClientCrudActivity</string>
+    <string name="save_btn">Save</string>
+    <string name="login_btn">login</string>
+    <string name="title_activity_technician_login">TechnicianLoginActivity</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Not a member? Sign up now.</string>
+    <string name="btn_link_to_login">Already registered! Login Me.</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="title_activity_technician_register">TechnicianRegisterActivity</string>
+    <string name="title_activity_client_register">ClientRegisterActivity</string>
+    <string name="title_activity_client_login">ClientLoginActivity</string>
+    <string name="view_btn">View Report</string>
+    <string name="title_activity_client_data_list">ClientDataListActivity</string>
+    <string name="title_activity_data_list_acitivity">DataListAcitivity</string>
+    <string name="title_activity_search_report">SearchReportActivity</string>
+    <string name="title_activity_update_technician">UpdateTechnicianActivity</string>
+    <string name="update_btn">Update report</string>
+    <string name="search_btn">Search report</string>
+    <string name="title_activity_search_technician">SearchTechnicianActivity</string>
+    <string name="title_activity_delete_technician">DeleteTechnicianActivity</string>
+    <string name="del_btn">delete report</string>
+    <string name="title_activity_update_client">UpdateClientActivity</string>
+    <string name="dept_name">Choose department:</string>
+
+    <string-array name="dept_names">
+        <item>Administrator</item>
+        <item>Finance</item>
+        <item>Minister</item>
+        <item>3P</item>
+        <item>JPSM</item>
+        <item>USB</item>
+        <item>KIT</item>
+        <item>SJC</item>
+    </string-array>
+
+    <string-array name="prob_specs">
+        <item>Application</item>
+        <item>Email</item>
+        <item>Hardware Problem</item>
+        <item>Network</item>
+        <item>Other</item>
+    </string-array>
+
+    <string name="title_activity_data_client">DataClientActivity</string>
+    <string name="title_activity_technician_update">TechnicianUpdateActivity</string>
+    <string name="title_activity_technician_new_updated">TechnicianNewUpdatedActivity</string>
+    <string name="title_activity_delete_report">DeleteReportActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+    <string name="title_activity_search_and_delete">SearchAndDeleteActivity</string>
+    <string name="title_activity_click_background_task">ClickBackgroundTask</string>
+    <string name="title_activity_data_list_adapter">DataListAdapter</string>
+    <string name="about_btn">About</string>
+    <string name="title_activity_about_page">AboutPageActivity</string>
+
+    <string name="about_1">This is a KPSKTM HelpDesk application that currently under development by Aryanto Taharuddin from University of Malaysia Sabah.</string>
+    <string name="about_2">The KPSKTM HelpDesk will give you a fast report about your PC and devices problem that running with your PC, and also you can view the status of it inside your android devices.</string>
+    <string name="about_3">Version: v1.0\n\nCompatible Android Version:Android 4.3 (JellyBean) and further </string>
+
+    <string name="applicant_name">Applicant\'s Name</string>
+    <string name="department">Department</string>
+    <string name="position">Position</string>
+    <string name="telephoneNumber">Telephone Number (Mobile)</string>
+    <string name="problemSpecs">Problem Specification (Choose one)</string>
+    <string name="problemDetails">Problem Details</string>
+
+    <!--Username and Password-->
+    <string name="Username">Username</string>
+    <string name="Password">Password</string>
+
+</resources>

@@ -1,0 +1,168 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@color/bg_register"
+    tools:context=".activity.ClientActivity">
+
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/bg_register"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColor="@color/white"
+            android:text="Client Form"
+            android:textSize="30sp"
+            android:gravity="center_horizontal"
+            />
+
+        <EditText
+            android:id="@+id/applName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Applicant's name"
+            android:background="@color/white"
+            android:layout_alignParentTop="true"
+
+
+            android:layout_marginTop="90dp"
+            android:padding="10dp"/>
+        <EditText
+            android:id="@+id/telNo"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:hint="Telephone Number"
+            android:padding="10dp"
+            android:layout_marginTop="300dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:text="@string/dept_name"
+            android:textColor="@color/white"
+
+            android:layout_height="40dp"
+            android:layout_marginTop="150dp"
+            android:layout_alignParentLeft="true"/>
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_marginTop="180dp"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:padding="10dp"
+            android:background="@color/white"
+            />
+        <EditText
+            android:id="@+id/pos"
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:hint="Position in department"
+            android:layout_marginTop="240dp"
+            android:background="@color/white"
+            android:padding="10dp"/>
+
+        <TextView
+            android:layout_height="40dp"
+            android:layout_width="match_parent"
+            android:text="Problem Specifications (Choose one):"
+            android:layout_marginTop="360dp"
+            android:textColor="@color/white"
+            android:id="@+id/textView" />
+        <RadioGroup
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/group">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:text="Application system"
+                android:id="@+id/appSys"
+                android:clickable="true"
+                android:layout_marginTop="380dp"
+
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:textColor="@color/white"
+                android:text="E-mail"
+                android:id="@+id/email"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+
+                />
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Hardware Problem"
+                android:textColor="@color/white"
+                android:id="@+id/hardProb"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Network"
+                android:textColor="@color/white"
+                android:id="@+id/network"
+                android:checked="true"
+                android:layout_marginTop="10dp"
+
+                />
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Other"
+                android:textColor="@color/white"
+                android:id="@+id/other"
+                android:checked="true"
+                android:layout_marginTop="10dp"
+
+                />
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Problem Details:"
+
+            android:layout_marginTop="640dp"
+            android:textColor="@color/white"
+            />
+        <EditText
+            android:id="@+id/prob_dtls"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:background="@color/white"
+            android:layout_marginTop="670dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/savedtls"
+            android:text="@string/save_btn"
+            android:layout_marginTop="780dp"
+            android:textColor="@color/white"
+            android:background="@color/bg_button"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:id="@+id/viewDtls"
+            android:text="@string/view_btn"
+            android:layout_marginTop="860dp"
+            android:textColor="@color/white"
+            android:background="@color/bg_button"/>
+    </RelativeLayout>
+
+</ScrollView>
