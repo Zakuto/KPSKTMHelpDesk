@@ -18,17 +18,16 @@
         <activity android:name=".activity.SearchAndDeleteActivity" />
         <activity android:name=".activity.DataListActivity" />
         <activity android:name=".activity.ClientRegisterActivity" />
-        <activity android:name=".activity.ClientLoginActivity" />
+        <activity android:name=".activity.MainActivity" />
         <activity
             android:name=".activity.ClientActivity"
             android:parentActivityName=".activity.MainActivity" />
         <activity android:name=".activity.AboutPageActivity" />
         <activity
-            android:name=".activity.MainActivity"
+            android:name=".activity.ClientLoginActivity"
             android:launchMode="singleTop">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>

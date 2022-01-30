@@ -10,13 +10,14 @@ import androidx.room.Room;
 import androidx.room.RoomDatabase;
 import androidx.sqlite.db.SupportSQLiteDatabase;
 
+import com.example.kpsktmhelpdesk.constants.ReportConstant;
 import com.example.kpsktmhelpdesk.model.dao.ClientDAO;
 import com.example.kpsktmhelpdesk.model.entity.Client;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-@Database(entities = {Client.class},version = 1)
+@Database(entities = {Client.class},version = 1,exportSchema = false)
 public abstract class KPSKTMDatabase extends RoomDatabase {
 
     private static KPSKTMDatabase instance;
@@ -32,7 +33,7 @@ public abstract class KPSKTMDatabase extends RoomDatabase {
     public static synchronized KPSKTMDatabase getInstance(Context c){
         if(instance == null){
             instance = Room.databaseBuilder(c.getApplicationContext(),KPSKTMDatabase.class,
-                    "kpsktm_database")
+                    ReportConstant.KPSKTM_DATABASE)
                     .fallbackToDestructiveMigration()
                     .addCallback((roomCallback))
                     .build();
